@@ -1,0 +1,107 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3191,         97]
+NotebookOptionsPosition[      2508,         77]
+NotebookOutlinePosition[      2929,         94]
+CellTagsIndexPosition[      2886,         91]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Desenvolvimento te\[OAcute]rico para circuito do Canh\[ATilde]o El\
+\[EAcute]trico", "Text",
+ CellChangeTimes->{{3.905375348968302*^9, 
+  3.905375382166149*^9}},ExpressionUUID->"696ee8d3-bea6-498a-9f10-\
+ef679a4641ef"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"L", " ", "=", " ", "3"}], ";"}], " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"R", " ", "=", " ", "5"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Cp", " ", "=", " ", "4"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.905375431754552*^9, 3.905375442052033*^9}, {
+  3.905375677512208*^9, 3.90537574397436*^9}, {3.905376236931073*^9, 
+  3.90537626805355*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"fc2babe8-dea8-4d5e-8015-95b8eaf1950d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{"i", 
+      RowBox[{"(", "t", ")"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "2"}], "}"}]}], "]"}], "+", 
+   RowBox[{
+    FractionBox["R", "L"], 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"i", 
+       RowBox[{"(", "t", ")"}]}], ",", "t"}], "]"}]}], "+", 
+   FractionBox["1", 
+    RowBox[{"L", "*", "Cp"}]]}], "==", "0"}]], "Input",
+ CellChangeTimes->{{3.9053757515957727`*^9, 3.9053757621251593`*^9}, {
+   3.905375858083167*^9, 3.905375906013728*^9}, {3.905375953155184*^9, 
+   3.90537600876052*^9}, {3.905376075178566*^9, 3.9053760755738688`*^9}, {
+   3.9053762094526033`*^9, 3.905376210017901*^9}, 3.9053762433306837`*^9, 
+   3.905376276084125*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"20c207e9-56a4-45f5-9e92-315e7c4245de"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox["1", "12"], "+", 
+   FractionBox[
+    RowBox[{"5", " ", "i"}], "3"]}], "\[Equal]", "0"}]], "Output",
+ CellChangeTimes->{
+  3.9053760822353277`*^9, 3.9053762148390093`*^9, {3.905376261254682*^9, 
+   3.9053762768492126`*^9}},
+ CellLabel->"Out[11]=",ExpressionUUID->"fbab6008-9138-45f0-9acc-0d4ebaf2512e"]
+}, Open  ]]
+},
+WindowSize->{1152, 605.25},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>2. Inherited,
+FrontEndVersion->"13.3 for Linux x86 (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0f1ccca3-1b85-4af0-a5a7-6be39f5a19a8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 224, 4, 69, "Text",ExpressionUUID->"696ee8d3-bea6-498a-9f10-ef679a4641ef"],
+Cell[785, 26, 495, 11, 142, "Input",ExpressionUUID->"fc2babe8-dea8-4d5e-8015-95b8eaf1950d"],
+Cell[CellGroupData[{
+Cell[1305, 41, 832, 22, 92, "Input",ExpressionUUID->"20c207e9-56a4-45f5-9e92-315e7c4245de"],
+Cell[2140, 65, 352, 9, 106, "Output",ExpressionUUID->"fbab6008-9138-45f0-9acc-0d4ebaf2512e"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
